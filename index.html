@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="main">
+        <div id="main-div">
+            <span class="welcome">Welcome</span>
+            <img src="ProfilePicture.png" alt="ProfilePicture" id="ProfilePicture"> 
+        </div>
+        <h1 id="name">My name is Franklin Peña and I am a New York based </br>
+            <strong><span class="engineer">Software Engineer</span></strong></h1>
+    </section>
+    <section id="about-section">
+        <div id="about-div">
+            <h3 id="about-me">About Me</h3>
+            <section class="about-me">
+            <p>Ever since I could remember, I had always liked technology. My journey started in 2022 when I decided to pick up a skill
+                that I knew would benefit me in the long run. Coding allowed me not only to build websites and apps, it also allowed me to connect 
+                with others that have the same passion. 
+            </p>
+            <img class="code" src="JSCode.png" alt="">
+        </section>
+        </div>
+    </section>
+    <section id="work-section">
+        <div id="done-work">
+            <span id="look-here">Feel free to look at any of my work down below.</span>
+            <div id="projects">
+                <section id="projectOne">
+                    <a href="https://devs-weatherapp.netlify.app/"><img src="WeatherApp.png" alt="" id="project-one"></a>
+                    <span class="projectOne">A weather application. Enter a city name and get back the current weather, humidity and wind speed. Press the search icon to look up the city.</span>
+                </section>
+                <section id="projectTwo">
+                   <a href="https://franklinscalculator.netlify.app/"><img src="Calculator.png" alt="" id="project-two"></a> 
+                    <span class="projectTwo">A simple calculator. You can use addition, subtraction, multiplication and division. Punch in your equation and get your value.</span>
+                </section>
+                <section id="projectThree">
+                    <a href="https://office-tic-tac-toe.netlify.app/"><img src="TicTacToe.png" alt="" id="project-three"></a>
+                    <span class="projectThree">A simple game of Tic-Tac-Toe. Player 1 is X and Player 2 is O. Connect three of your marker in a row and you win! Once you win, a GIF will appear, Enjoy the game!</span>
+                </section>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p id="project">If you would like to work with me on your next upcoming project, please reach out!</p>
+        <form id="form">
+            <label for="fName">First Name:</label>
+            <input type="text" name="First-Name" id="fName" required>
+            <label for="lName">Last Name:</label>
+            <input type="text" name="Last-Name" id="lName" required>
+            <textarea name="projectDetails" id="projectDetails" cols="90" rows="20" placeholder="Tell me more about your project..." required></textarea>
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+
+    </body>
+    </html>  
