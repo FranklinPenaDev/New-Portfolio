@@ -11,22 +11,32 @@ html{
 body{
     font-size: 30px;
 }
-#nav-bar #nav-div{
-    width: 100%;
-    height: 75px;
+.nav.div{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #333;
 }
-ul{
-    display: flex;
-    justify-content: space-around;
+.nav-div ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-a{
+.nad-div ul li{
+    display: inline;
+}
+.nav-div ul li a{
+    display: inline-block;
+    padding: 10px 20px;
     text-decoration: none;
-    font-weight: 700;
-    font-size: 35px;
+    color: black;
+    width: 10%;
 }
-li{
-    list-style: none;
+.nav-div ul li a:hover{
+    background-color: #555;
+    color: white;
 }
+
 #main{
     width: 100%;
     height: 100vh;
