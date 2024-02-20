@@ -27,4 +27,4 @@ function submitForm() {
             mailtoWindow.close();
         }
     }, 1000); // Adjust the delay as needed (in milliseconds)
-}
+};

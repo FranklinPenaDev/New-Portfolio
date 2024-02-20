@@ -7,11 +7,13 @@
 }
 html{
     background-image: url(cool-background.png);
+    scroll-behavior: smooth;
 }
 .nav-div ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
 }
 .nad-div ul li{
     display: inline;
@@ -21,11 +23,12 @@ html{
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
-    color: black;
-    width: 10%;
+    background-color: #555;
+    color: white;
+    width: 100%;
 }
 .nav-div ul li a:hover{
-    background-color: #555;
+    background-color: black;
     color: white;
 }
 
@@ -200,7 +203,28 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
-
+#toTop{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+#topButton{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+#toTop:hover{
+    background-color: red;
+}
 @media only screen and (max-width: 768px){
     *{
         box-sizing: border-box;
