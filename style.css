@@ -204,6 +204,7 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 #toTop{
+    display: inline;
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -417,6 +418,29 @@ input[type=submit]:hover {
     input[type=submit]:hover {
         background-color: #45a049;
     }
+    #toTop{
+        display: inline;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        border: none;
+        outline: none;
+        background-color: #555;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    #topButton{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    #toTop:hover{
+        background-color: red;
+    }
 }
 
 /*media query for mobile devices*/
@@ -608,5 +632,28 @@ input[type=submit]:hover {
     }
     input[type=submit]:hover {
         background-color: #45a049;
+    }
+    #toTop{
+        display: inline;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        border: none;
+        outline: none;
+        background-color: #555;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    #topButton{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    #toTop:hover{
+        background-color: red;
     }
 }
